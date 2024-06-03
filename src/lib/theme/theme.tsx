@@ -15,5 +15,10 @@ export const Theme = createTheme({
         variant: "contained",
       },
     },
+    MuiStack: {
+      defaultProps: {
+        direction: "row",
+      },
+    },
   },
 });
